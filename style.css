@@ -1,0 +1,250 @@
+/*
+Theme Name: Radley's Portfolio Theme
+Description: A custom theme to demonstrate my experience with WordPress and as a professional web developer. Design and programming by Radley.
+Author: Radley Sustaire
+Author URI: http://radleysustaire.com/
+License: Copyright © 2017 Radley Sustaire
+Version: 1.0.0
+*/
+
+*, *::after, *::before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Fix.css 0.1.1 https://github.com/jaydenseric/Fix */
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	margin: 0;
+	line-height: 1;
+	font-family: sans-serif;
+}
+
+iframe {
+	border: 0;
+}
+
+main {
+	display: block;
+}
+
+ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+li {
+	display: block;
+}
+
+dl {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+dd {
+	margin-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: inherit;
+}
+
+blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+sup {
+	position: relative;
+	top: -.5em;
+	vertical-align: baseline;
+	font-size: 75%;
+	line-height: 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+figure {
+	margin: 0;
+}
+
+img {
+	border: 0;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;
+	text-transform: inherit;
+	font: inherit;
+	-webkit-font-smoothing: inherit;
+	letter-spacing: inherit;
+	background: none;
+	cursor: pointer;
+	overflow: visible;
+}
+
+::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/* WordPress Core */
+.alignnone {
+	margin: 0.25em 1em 1em 0;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0.25em auto 0.25em auto;
+}
+
+.alignright {
+	float: right;
+	margin: 0.25em 0 1em 1em;
+}
+
+.alignleft {
+	float: left;
+	margin: 0.25em 1em 1em 0;
+}
+
+.wp-caption {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	padding: 0.25em 3px 10px;
+	text-align: center;
+}
+
+.wp-caption.alignnone {
+	margin: 0.25em 1em 1em 0;
+}
+
+.wp-caption.alignleft {
+	margin: 0.25em 1em 1em 0;
+}
+
+.wp-caption.alignright {
+	margin: 0.25em 0 1em 1em;
+}
+
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 100%;
+	padding: 0;
+	width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 0.25em;
+}
+
+.screen-reader-text {
+	position: absolute !important;
+	top: -9999999px;
+
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.screen-reader-text:focus {
+	top: 0.25em;
+	left: 0.25em;
+	z-index: 100000; /* Above WP toolbar. */
+
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 10.25em 23px 14px;
+
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: none;
+
+	background-color: #f1f1f1;
+
+	clip: auto !important;
+}
+
+/* Framework */
+.section-row .inside {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.grid {
+	position: relative;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+
+	min-width: 100%;
+
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.cell {
+	display: block;
+	max-width: 100%;
+
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
