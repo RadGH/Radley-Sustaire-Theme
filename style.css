@@ -210,6 +210,20 @@ button {
 	clip: auto !important;
 }
 
+/* TinyMCE Editor (WP Visual editor) */
+body.mce-content-body {
+	margin: 10px;
+}
+
+/* Top-level styles */
+body,
+body.mce-content-body {
+	font-family: Montserrat, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+
 /* Framework */
 .section-row .inside {
 	max-width: 1080px;

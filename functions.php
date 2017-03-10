@@ -18,8 +18,20 @@ function theme_scripts() {
 
 	wp_enqueue_style( get_stylesheet(), get_stylesheet_uri(), array(), $theme_version );
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/includes/assets/main.js' , array('jquery'), $theme_version );
+	
+	// Google Fonts
+	// Montserrat: font-family: 'Montserrat', Arial, sans-serif;
+	wp_enqueue_style( 'google-font-montserrat', '//fonts.googleapis.com/css?family=Montserrat:400,700', array(), '1.0.0' );
 }
 add_action( 'wp_enqueue_scripts', 'theme_scripts' );
+
+function theme_admin_scripts() {
+	// Google Fonts
+	// Montserrat: font-family: 'Montserrat', Arial, sans-serif;
+	wp_enqueue_style( 'google-font-montserrat', '//fonts.googleapis.com/css?family=Montserrat:400,700', array(), '1.0.0' );
+	add_editor_style( '//fonts.googleapis.com/css?family=Montserrat:400,700' );
+}
+add_action( 'admin_enqueue_scripts', 'theme_admin_scripts' );
 
 function theme_setup() {
 
