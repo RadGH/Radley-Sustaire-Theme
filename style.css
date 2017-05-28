@@ -225,7 +225,7 @@ body.mce-content-body {
 
 
 /* Framework */
-.section-row .inside {
+.layout-row .inside {
 	max-width: 1080px;
 	margin: 0 auto;
 }

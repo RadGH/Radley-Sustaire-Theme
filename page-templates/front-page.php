@@ -6,9 +6,9 @@
 get_header();
 ?>
 	
-	<section class="  layout-black">
+	<section class="hero layout-black">
 		
-		<div class="section-row">
+		<div class="layout-row">
 			<div class="inside">
 				<header class="section-header section-centered">
 					<h1 class="page-title">Custom WordPress Development</h1>
@@ -17,7 +17,7 @@ get_header();
 			</div>
 		</div>
 		
-		<div class="section-row">
+		<div class="layout-row">
 			<div class="inside">
 				<div class="service-grid">
 					<div class="grid">
@@ -65,8 +65,8 @@ get_header();
 		
 	</section>
 	
-	<section class="layout-section layout-blue section-icon section-icon-projects">
-		<div class="section-row">
+	<section class="projects-header layout-blue section-icon section-icon-projects">
+		<div class="layout-row">
 			<div class="inside">
 				<header class="section-header section-centered">
 					<h2 class="section-title">Featured Projects</h2>
@@ -76,12 +76,39 @@ get_header();
 		</div>
 	</section>
 	
-	<section class="layout-section layout-orange section-icon section-icon-testimonials">
-		<div class="section-row">
+	<section class="projects">
+		<div class="layout-row">
+			<div class="inside">
+				
+				<div class="project-list">
+					
+					<article class="project-item">
+						
+						<div class="project-media">
+							<img src="https://radleysustaire.com/staging/wp-content/uploads/2017/03/desktop.jpg" alt="A page from the website Brantford Experts, titled &quot;Submit an Article&quot;" class="desktop">
+							<div class="mobile">
+								<img src="https://radleysustaire.com/staging/wp-content/uploads/2017/03/mobile.jpg" alt="A preview of how the submit an article page appears on mobile">
+							</div>
+						</div>
+						
+					</article>
+					
+				</div>
+				
+				<header class="section-header section-centered">
+					<h2 class="section-title">Featured Projects</h2>
+					<h3 class="section-subtitle">Highlights from my collection of XX projects.</h3>
+				</header>
+			</div>
+		</div>
+	</section>
+	
+	<section class="testimonials-header layout-orange section-icon section-icon-testimonials">
+		<div class="layout-row">
 			<div class="inside">
 				<header class="section-header section-centered">
 					<h2 class="section-title">Testimonials</h2>
-					<h3 class="section-subtitle">Read what others have said about about my work.</h3>
+					<h3 class="section-subtitle">What others have to say about my work.</h3>
 				</header>
 			</div>
 		</div>
